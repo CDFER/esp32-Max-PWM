@@ -30,8 +30,8 @@ Max frequencies:
 ```
 
 ```
-Platform espressif32 @ 6.7.0 (required: espressif32)
-├── framework-arduinoespressif32 @ 3.20016.0 (required: platformio/framework-arduinoespressif32 @ ~3.20016.0)
+Platform espressif32 @ 6.8.1 (required: espressif32)
+├── framework-arduinoespressif32 @ 3.20017.0 (required: platformio/framework-arduinoespressif32 @ ~3.20017.0)
 ├── tool-esptoolpy @ 1.40501.0 (required: platformio/tool-esptoolpy @ ~1.40501.0)
 ├── tool-mkfatfs @ 2.0.1 (required: platformio/tool-mkfatfs @ ~2.0.0)
 ├── tool-mklittlefs @ 1.203.210628 (required: platformio/tool-mklittlefs @ ~1.203.0)
@@ -71,8 +71,8 @@ Max frequencies:
 ```
 
 ```
-Platform espressif32 @ 6.7.0 (required: espressif32)
-├── framework-arduinoespressif32 @ 3.20016.0 (required: platformio/framework-arduinoespressif32 @ ~3.20016.0)
+Platform espressif32 @ 6.8.1 (required: espressif32)
+├── framework-arduinoespressif32 @ 3.20017.0 (required: platformio/framework-arduinoespressif32 @ ~3.20017.0)
 ├── tool-esptoolpy @ 1.40501.0 (required: platformio/tool-esptoolpy @ ~1.40501.0)
 ├── tool-mkfatfs @ 2.0.1 (required: platformio/tool-mkfatfs @ ~2.0.0)
 ├── tool-mklittlefs @ 1.203.210628 (required: platformio/tool-mklittlefs @ ~1.203.0)
@@ -80,4 +80,43 @@ Platform espressif32 @ 6.7.0 (required: espressif32)
 ├── tool-openocd-esp32 @ 2.1100.20220706 (required: platformio/tool-openocd-esp32 @ ~2.1100.0)
 ├── toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 (required: espressif/toolchain-riscv32-esp @ 8.4.0+2021r2-patch5)
 └── toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5 (required: espressif/toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5)
+```
+
+## ESP32C3
+```
+Board Model: WEMOS LOLIN C3 Mini
+Chip Model: ESP32-C3
+Chip Revision: 4
+Number of Cores: 1
+CPU Frequency: 160 MHz
+SDK Version: v4.4.7-dirty
+
+Max frequencies:
+1bits = 0hz
+2bits = 0hz
+3bits = 0hz
+4bits = 0hz
+5bits = 0hz
+6bits = 0hz
+7bits = 0hz
+8bits = 0hz
+9bits = 78.20khz
+10bits = 39.10khz
+11bits = 19.50khz
+12bits = 9.70khz
+13bits = 4.80khz
+14bits = 2.40khz
+15bits = 0hz
+16bits = 0hz
+```
+
+```
+Platform espressif32 @ 6.8.1 (required: espressif32)
+├── framework-arduinoespressif32 @ 3.20017.0 (required: platformio/framework-arduinoespressif32 @ ~3.20017.0)
+├── tool-esptoolpy @ 1.40501.0 (required: platformio/tool-esptoolpy @ ~1.40501.0)
+├── tool-mkfatfs @ 2.0.1 (required: platformio/tool-mkfatfs @ ~2.0.0)
+├── tool-mklittlefs @ 1.203.210628 (required: platformio/tool-mklittlefs @ ~1.203.0)
+├── tool-mkspiffs @ 2.230.0 (required: platformio/tool-mkspiffs @ ~2.230.0)
+├── tool-openocd-esp32 @ 2.1100.20220706 (required: platformio/tool-openocd-esp32 @ ~2.1100.0)
+└── toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 (required: espressif/toolchain-riscv32-esp @ 8.4.0+2021r2-patch5)
 ```

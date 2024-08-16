@@ -1,8 +1,13 @@
 #include "Arduino.h"
 
 void setup() {
-    Serial.begin(115200);            //115200 baud rate (If necessary, change in the serial monitor)
+    #ifdef CONFIG_IDF_TARGET_ESP32C3
+    Serial.begin();
+    delay(5000);
+    #else
+    Serial.begin(115200);
     while (!Serial);                 //Wait for someone to open the serial monitor
+    #endif
 
     const int maxResolution = 16;
     int maxFrequencies[maxResolution];  // array to store max frequencies for each resolution
